@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    min-width: 1280px;
+    height: auto;
+    background-color: #221518;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/background-main.png');
+    background-repeat: no-repeat;
+    background-size: 1280px 813px;
+    min-width: 1280px;
+    min-height: 813px;
+    padding-top: 0px;
+}
+.menu_h {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 20px;
+   }
+.logotype {
+    float: left;
+    min-height: 200px;
+    box-sizing: border-box;
+    width: 20%;
+}
+nav ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.home-block{
+    background-image: url('../images/home-block.png');
+    background-size: 86px 75px;
+    width: 86px;
+    height: 75px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: -10px;
+}
+nav ul li a{
+    color: #FFF8E8;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Leiko-Reg';
+    line-height: auto;
+
+}
+
+.page h1 {
+    font-family: 'DanScr-B';
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 112px;
+
+    margin-left: 50px;
+    color: transparent;
+    background: -webkit-linear-gradient(
+        76deg,
+        #F8E4BE 20%,
+        #FFF3E0 37%,
+        #FFF8E8 52%,
+        #DFC39D 72%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+}
+h1::first-letter {
+    font-size: 125%;
+}
+.page h4 {
+    color: #DABB9E;
+    font-family: 'Leiko-Reg';
+    font-weight: regular;
+    font-size: 24px;
+    width: 472px;
+    height: 94px;
+    margin-left: 50px;
+}
+/*.btn_h{
+    background-color: rgba(247, 225, 188, 0.1);
+    box-sizing: border-box;
+    width: 187px;
+    height: 55px;
+    padding: 12px 36px;
+    text-align: center;
+    font-size: 24px;
+    color: #F7E1BC;
+    border: 2px solid #F8E4BE;
+    margin-left: 50px;
+}
+.btn_h:hover{
+    background-color: rgba(247, 225, 188, 0.3);
+}*/
+.btn_h {
+    background-color: rgba(247, 225, 188, 0.1);
+    box-sizing: border-box;
+    width: 187px;
+    height: 55px;
+    padding: 12px 36px;
+    text-align: center;
+    font-size: 24px;
+    color: #F7E1BC;
+    border: 2px solid #F8E4BE;
+    margin-left: 50px;
+    font-family: 'Leiko-Reg';
+    line-height: 1.3;
+    border-radius: 60px;
+}
+
+.btn_h:hover{
+    background-color: rgba(247, 225, 188, 0.3);
+}
