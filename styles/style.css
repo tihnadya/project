@@ -1,0 +1,210 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    min-width: 1280px;
+    height: auto;
+    background-color: #221518;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/background-main.png');
+    background-repeat: no-repeat;
+    background-size: 1280px 813px;
+    min-width: 1280px;
+    min-height: 813px;
+    padding-top: 0px;
+}
+.menu_h {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 20px;
+    margin-top: 10px;
+}
+.logotype {
+    float: left;
+    min-height: 200px;
+    box-sizing: border-box;
+    width: 20%;
+    
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+}
+nav li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li a {
+    display: block;
+    position: relative; 
+    z-index: 10;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #FFF8E8;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Leiko-Reg';
+}
+
+.home-block {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-image: url('../images/home-block.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 86px;
+    height: 75px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.page h1 {
+    font-family: 'DanScr-B';
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 112px;
+    margin: 50px 100px;
+    margin-left: 50px;
+    background: -webkit-linear-gradient(
+        76deg,
+        #F8E4BE 20%,
+        #FFF3E0 37%,
+        #FFF8E8 52%,
+        #DFC39D 72%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+}
+h1::first-letter {
+    font-size: 120%;
+}
+.page h4 {
+    color: #DABB9E;
+    font-family: 'Leiko-Reg';
+    font-weight: regular;
+    box-sizing: border-box;
+    font-size: 22px;
+    width: 472px;
+    height: 94px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+/*.btn_h{
+    background-color: rgba(247, 225, 188, 0.1);
+    box-sizing: border-box;
+    width: 187px;
+    height: 55px;
+    padding: 12px 36px;
+    text-align: center;
+    font-size: 24px;
+    color: #F7E1BC;
+    border: 2px solid #F8E4BE;
+    margin-left: 50px;
+}
+.btn_h:hover{
+    background-color: rgba(247, 225, 188, 0.3);
+}*/
+.but_hr{
+    margin-top: -20px;
+}
+.btn_h {
+    background-color: rgba(247, 225, 188, 0.1);
+    box-sizing: border-box;
+    width: auto;
+    height: 55px;
+    padding: 12px 36px;
+    text-align: center;
+    font-size: 24px;
+    color: #F7E1BC;
+    border: 2px solid #F8E4BE;
+    margin-left: 50px;
+    font-family: 'Leiko-Reg';
+    line-height: 1.3;
+    border-radius: 60px;
+}
+
+.btn_h:hover{
+    background-color: rgba(247, 225, 188, 0.3);
+}
+
+.hurry-up {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.bottom-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.top-img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30%;
+    z-index: 10;
+}
+.coffee-card {
+    position: relative;
+    width: 336px;
+    height: 247px;
+    background-color: #4A2721;
+    background-image: url('../images/card.png'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 50px 50px 0 0;
+}
+.cup-img {
+    position: absolute;
+    left: -50px; 
+    top: -20px;
+    height: 100%;
+    z-index: 5;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.card-content {
+    padding-top: 50px;
+    text-align: right;
+    color: #f7e1bc;
+    margin-right: -30px;
+}
+.title {
+    font-family: 'DanScr-B';
+    font-size: 28px;
+    margin-top: 60px;
+}
+.btn-hurry {
+    font-family: 'Leiko-Reg';
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 1px solid #f7e1bc;
+    border-radius: 50px;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 10px;
+}
